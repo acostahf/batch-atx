@@ -34,14 +34,16 @@ export default function Home() {
           data-netlify="true"
           className="z-10 w-full text-center"
         >
-          <input
-            id="email"
-            name="email"
-            type="email"
-            required
-            className="z-10 bg-white max-w-2xl w-full px-10 py-5 rounded-lg outline-none"
-            placeholder="Leave your email, you’ll be the first to hear from us..."
-          ></input>
+          <div>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              className="z-10 bg-white max-w-2xl w-full px-10 py-5 rounded-lg outline-none"
+              placeholder="Leave your email, you’ll be the first to hear from us..."
+            ></input>
+          </div>
           <button type="submit">submit</button>
         </form>
       </main>
