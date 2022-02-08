@@ -44,11 +44,10 @@ export default function Home() {
                 className="z-10 bg-white max-w-xl md:max-w-2xl w-full py-10 text-ellipsis md:py-10 md:text-lg placeholder:text-[#5a3d2b] rounded-lg outline-none text-sm"
                 placeholder="Leave your email, you’ll be the first to hear from us..."
               ></input>
-              <div className="flex flex-col justify-center">
-                <button type="submit" className={styles.btn}>
-                  <BsArrowRightCircle className={styles.icon} />
-                </button>
-              </div>
+
+              <button type="submit" className={styles.btn}>
+                <BsArrowRightCircle className={styles.icon} />
+              </button>
             </div>
           </div>
         </form>
