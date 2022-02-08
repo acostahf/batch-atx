@@ -13,15 +13,6 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen flex flex-col px-5 md:px-16 justify-start pt-20  align-middle">
-        {/* <Image
-          priority
-          className={styles.img}
-          src="/bg.png"
-          alt="bg image"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-        /> */}
         <div className="text-center">
           <Image priority src="/logo.png" width={211} height={196} />
         </div>
@@ -29,7 +20,7 @@ export default function Home() {
           Austin, here we come!
         </h1>
         <form
-          name="contact"
+          name="contact-email"
           method="POST"
           data-netlify="true"
           className="z-10 w-full text-center"
