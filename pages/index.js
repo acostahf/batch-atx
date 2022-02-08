@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className="min-h-screen flex flex-col px-5 md:px-16 justify-start pt-20  align-middle">
         <div className="text-center">
-          <Image priority src="/logo.png" width={211} height={196} />
+          <Image priority src="/logo.png" width={211} height={196} alt="logo" />
         </div>
         <h1 className="text-center text-2xl md:text-[60px] text-[#5a3d2b] font-extrabold z-10 pb-4 md:pb-10 ">
           Austin, here we come!
@@ -23,8 +23,10 @@ export default function Home() {
           name="contact-email"
           method="POST"
           data-netlify="true"
+          action="/success"
           className="z-10 w-full text-center"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="flex justify-center">
             <div className=" max-w-xl md:max-w-2xl w-full flex justify-center align-middle gap-2 bg-white rounded-lg px-6 sm:px-10 ">
               <input
