@@ -34,7 +34,7 @@ export default function Home() {
                 type="email"
                 required
                 className="z-10 bg-white max-w-xl md:max-w-2xl w-full text-ellipsis py-6 px-6 md:px-10 md:py-10 sm:text-lg placeholder:text-[#5a3d2b] rounded-lg outline-none text-xs focus:ring-1 focus:ring-[#62B1C2]"
-                placeholder="Leave your email, we'll reach out soon"
+                placeholder="Leave your email, we'll reach out soon!"
               ></input>
               <button type="submit" className={styles.btn}>
                 <BsArrowRightCircle className="w-[24px] h-[24px] md:w-[35px] md:h-[35px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" />
