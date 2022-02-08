@@ -13,17 +13,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>
-          <Image
-            priority
-            className={styles.img}
-            src="/bg.png"
-            alt="bg image"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
-          />
-        </div>
+        <Image
+          priority
+          className={styles.img}
+          src="/bg.png"
+          alt="bg image"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+        />
 
         <Image priority src="/logo.png" width={211} height={196} />
         <h1 className="text-[60px] text-[#5a3d2b] font-extrabold z-10 ">
