@@ -37,7 +37,6 @@ export default function Home() {
           <input
             id="email"
             name="email"
-            type="email"
             required
             className="z-10 bg-white max-w-2xl w-full px-10 py-5 rounded-lg outline-none"
             placeholder="Leave your email, you’ll be the first to hear from us..."
