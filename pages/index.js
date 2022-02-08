@@ -33,7 +33,7 @@ export default function Home() {
                 name="email"
                 type="email"
                 required
-                className="z-10 bg-white max-w-xl md:max-w-2xl w-full text-ellipsis py-6  px-6 md:px-10 md:py-10 md:text-lg placeholder:text-[#5a3d2b] rounded-lg outline-none text-sm focus:ring-1 focus:ring-[#62B1C2]"
+                className="z-10 bg-white max-w-xl md:max-w-2xl w-full text-ellipsis py-6 px-6 md:px-10 md:py-10 sm:text-lg placeholder:text-[#5a3d2b] rounded-lg outline-none text-xs focus:ring-1 focus:ring-[#62B1C2]"
                 placeholder="Leave your email, you’ll be the first to hear from us..."
               ></input>
               <button type="submit" className={styles.btn}>
