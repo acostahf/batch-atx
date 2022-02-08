@@ -38,7 +38,7 @@ export default function Home() {
             name="email"
             type="email"
             required
-            className={styles.email}
+            // className={styles.email}
             placeholder="Leave your email, you’ll be the first to hear from us..."
           />
           {/* <input className={styles.btn} type="submit" /> */}
