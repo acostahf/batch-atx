@@ -45,7 +45,7 @@ export default function Home() {
                 placeholder="Leave your email, you’ll be the first to hear from us..."
               ></input>
               <div className="flex flex-col justify-center">
-                <button type="submin" className={styles.btn}>
+                <button type="submit" className={styles.btn}>
                   <BsArrowRightCircle className={styles.icon} />
                 </button>
               </div>
