@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      <main className="min-h-screen flex flex-col px-16 justify-center align-middle">
+      <main className="min-h-screen flex flex-col px-5 md:px-16 justify-start pt-20  align-middle">
         {/* <Image
           priority
           className={styles.img}
@@ -25,7 +25,7 @@ export default function Home() {
         <div className="text-center">
           <Image priority src="/logo.png" width={211} height={196} />
         </div>
-        <h1 className="text-center text-[60px] text-[#5a3d2b] font-extrabold z-10 ">
+        <h1 className="text-center text-2xl md:text-[60px] text-[#5a3d2b] font-extrabold z-10 pb-4 md:pb-10 ">
           Austin, here we come!
         </h1>
         <form
@@ -34,15 +34,22 @@ export default function Home() {
           data-netlify="true"
           className="z-10 w-full text-center"
         >
-          <div>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              required
-              className="z-10 bg-white max-w-2xl w-full px-10 py-5 rounded-lg outline-none"
-              placeholder="Leave your email, you’ll be the first to hear from us..."
-            ></input>
+          <div className="flex justify-center">
+            <div className=" max-w-xl md:max-w-2xl w-full flex justify-center align-middle gap-2 bg-white rounded-lg px-6 sm:px-10 ">
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                className="z-10 bg-white max-w-xl md:max-w-2xl w-full py-10 text-ellipsis md:py-10 md:text-lg placeholder:text-[#5a3d2b] rounded-lg outline-none text-sm"
+                placeholder="Leave your email, you’ll be the first to hear from us..."
+              ></input>
+              <div className="flex flex-col justify-center">
+                <button type="submin" className={styles.btn}>
+                  <BsArrowRightCircle className={styles.icon} />
+                </button>
+              </div>
+            </div>
           </div>
         </form>
       </main>
