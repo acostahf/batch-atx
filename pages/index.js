@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div>
-          <Image
+          {/* <Image
             priority
             className={styles.img}
             src="/bg.png"
@@ -22,7 +22,7 @@ export default function Home() {
             layout="fill"
             objectFit="cover"
             objectPosition="center"
-          />
+          /> */}
         </div>
 
         <Image priority src="/logo.png" width={211} height={196} />
