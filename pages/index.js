@@ -28,17 +28,17 @@ export default function Home() {
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className="flex justify-center">
-            <div className=" max-w-xl md:max-w-2xl w-full flex justify-center align-middle gap-2 bg-white rounded-lg px-6 sm:px-10 ">
+            <div className=" max-w-xl md:max-w-2xl w-full flex justify-center align-middle gap-2 rounded-lg ">
               <input
                 name="email"
                 type="email"
                 required
-                className="z-10 bg-white max-w-xl md:max-w-2xl w-full py-10 text-ellipsis md:py-10 md:text-lg placeholder:text-[#5a3d2b] rounded-lg outline-none text-sm"
+                className="z-10 bg-white max-w-xl md:max-w-2xl w-full text-ellipsis py-6  px-6 md:px-10 md:py-10 md:text-lg placeholder:text-[#5a3d2b] rounded-lg outline-none text-sm focus:ring-1 focus:ring-[#FF5F48]"
                 placeholder="Leave your email, you’ll be the first to hear from us..."
               ></input>
-              <button type="submit" className={styles.btn}>
-                <BsArrowRightCircle className={styles.icon} />
-              </button>
+              {/* <button type="submit" className={styles.btn}>
+                <BsArrowRightCircle className="w-[24px] h-[24px] md:w-[35px] md:h-[35px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" />
+              </button> */}
             </div>
           </div>
         </form>
