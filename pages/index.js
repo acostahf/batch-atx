@@ -39,11 +39,10 @@ export default function Home() {
             type="email"
             required
             className={styles.email}
-            // placeholder="Leave your email, you’ll be the first to hear from us..."
+            placeholder="Leave your email, you’ll be the first to hear from us..."
           />
-          <button className={styles.btn} type="submit">
-            <BsArrowRightCircle className={styles.icon} />
-          </button>
+          <input className={styles.btn} type="submit" />
+          {/* <BsArrowRightCircle className={styles.icon} /> */}
         </form>
       </main>
     </div>
