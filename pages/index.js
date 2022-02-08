@@ -35,11 +35,12 @@ export default function Home() {
         >
           <input
             id="email"
+            name="email"
             type="email"
             required
             className={styles.email}
             placeholder="Leave your email, you’ll be the first to hear from us..."
-          ></input>
+          />
           {/* <button className={styles.btn} type="submit">
             <BsArrowRightCircle className={styles.icon} />
           </button> */}
