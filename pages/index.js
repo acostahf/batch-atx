@@ -41,7 +41,7 @@ export default function Home() {
             className={styles.email}
             placeholder="Leave your email, you’ll be the first to hear from us..."
           />
-          <input className={styles.btn} type="submit" />
+          {/* <input className={styles.btn} type="submit" /> */}
           {/* <BsArrowRightCircle className={styles.icon} /> */}
         </form>
       </main>
