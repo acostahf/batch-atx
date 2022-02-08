@@ -44,7 +44,6 @@ export default function Home() {
               placeholder="Leave your email, you’ll be the first to hear from us..."
             ></input>
           </div>
-          <button type="submit">submit</button>
         </form>
       </main>
     </div>
