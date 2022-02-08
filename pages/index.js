@@ -15,6 +15,7 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <Image
+            priority
             className={styles.img}
             src="/bg.png"
             alt="bg image"
@@ -24,7 +25,7 @@ export default function Home() {
           />
         </div>
 
-        <Image src="/logo.png" width={211} height={196} />
+        <Image priority src="/logo.png" width={211} height={196} />
         <h1 className={styles.heading}>Austin, here we come!</h1>
         <form
           name="contact"
@@ -39,9 +40,9 @@ export default function Home() {
             className={styles.email}
             placeholder="Leave your email, you’ll be the first to hear from us..."
           ></input>
-          <button className={styles.btn} type="submit">
+          {/* <button className={styles.btn} type="submit">
             <BsArrowRightCircle className={styles.icon} />
-          </button>
+          </button> */}
         </form>
       </main>
     </div>
