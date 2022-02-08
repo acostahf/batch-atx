@@ -26,19 +26,21 @@ export default function Home() {
         </div>
 
         <Image priority src="/logo.png" width={211} height={196} />
-        <h1 className={styles.heading}>Austin, here we come!</h1>
+        <h1 className="text-[60px] text-[#5a3d2b] font-extrabold z-10 ">
+          Austin, here we come!
+        </h1>
         <form
           name="contact"
           method="POST"
           data-netlify="true"
-          className={styles.form}
+          className="z-10 w-full max-w-2xl"
         >
           <input
             id="email"
             name="email"
             type="email"
             required
-            // className={styles.email}
+            className="z-10 bg-white w-full px-10 py-5 rounded-lg outline-none"
             placeholder="Leave your email, you’ll be the first to hear from us..."
           />
           {/* <input className={styles.btn} type="submit" /> */}
