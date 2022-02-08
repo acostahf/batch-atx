@@ -20,7 +20,7 @@ export default function Home() {
           Austin, here we come!
         </h1>
         <form
-          name="contact-email"
+          name="contact"
           method="POST"
           data-netlify="true"
           action="/success"
@@ -30,14 +30,12 @@ export default function Home() {
           <div className="flex justify-center">
             <div className=" max-w-xl md:max-w-2xl w-full flex justify-center align-middle gap-2 bg-white rounded-lg px-6 sm:px-10 ">
               <input
-                id="email"
                 name="email"
                 type="email"
                 required
                 className="z-10 bg-white max-w-xl md:max-w-2xl w-full py-10 text-ellipsis md:py-10 md:text-lg placeholder:text-[#5a3d2b] rounded-lg outline-none text-sm"
                 placeholder="Leave your email, you’ll be the first to hear from us..."
               ></input>
-
               <button type="submit" className={styles.btn}>
                 <BsArrowRightCircle className={styles.icon} />
               </button>
