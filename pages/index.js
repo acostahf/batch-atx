@@ -5,15 +5,15 @@ import { BsArrowRightCircle } from "react-icons/bs";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="bg-nmr-bg bg-cover bg-no-repeat bg-center ">
       <Head>
         <title>Batch ATX</title>
         <meta name="description" content="Coming Soon" />
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      <main className={styles.main}>
-        <Image
+      <main className="min-h-screen flex flex-col px-16 justify-center align-middle">
+        {/* <Image
           priority
           className={styles.img}
           src="/bg.png"
@@ -21,24 +21,25 @@ export default function Home() {
           layout="fill"
           objectFit="cover"
           objectPosition="center"
-        />
-
-        <Image priority src="/logo.png" width={211} height={196} />
-        <h1 className="text-[60px] text-[#5a3d2b] font-extrabold z-10 ">
+        /> */}
+        <div className="text-center">
+          <Image priority src="/logo.png" width={211} height={196} />
+        </div>
+        <h1 className="text-center text-[60px] text-[#5a3d2b] font-extrabold z-10 ">
           Austin, here we come!
         </h1>
         <form
           name="contact"
           method="POST"
           data-netlify="true"
-          className="z-10 w-full max-w-2xl"
+          className="z-10 w-full text-center"
         >
           <input
             id="email"
             name="email"
             type="email"
             required
-            className="z-10 bg-white w-full px-10 py-5 rounded-lg outline-none"
+            className="z-10 bg-white max-w-2xl w-full px-10 py-5 rounded-lg outline-none"
             placeholder="Leave your email, you’ll be the first to hear from us..."
           />
           {/* <input className={styles.btn} type="submit" /> */}
