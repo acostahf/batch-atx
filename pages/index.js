@@ -24,6 +24,7 @@ export default function Home() {
           />
         </div>
 
+        <Image src="/logo.png" width={211} height={196} />
         <h1 className={styles.heading}>Austin, here we come!</h1>
         <form
           name="contact"
