@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-nmr-bg bg-cover bg-no-repeat bg-center ">
       <Head>
-        <title>Batch ATX</title>
+        <title>Bach ATX</title>
         <meta name="description" content="Coming Soon" />
         <link rel="icon" href="/logo.png" />
       </Head>
